@@ -47,7 +47,7 @@ def get_summary_data():
 	all_players["now_cost"] = all_players["now_cost"]/10
 	all_players["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-	all_players.to_csv("all_players_fpl.csv", index=0)
+	all_players.to_csv("data/all_players_fpl.csv", index=0)
 
 
 if __name__ == "__main__":
